@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BDM-Project - Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-roman.css">
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-mono.css">
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../pages/final.html">Final Submission</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">BDM-Project</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/proposal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Proposal</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/mid-term.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mid-Term Submission</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/final.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Final Submission</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/slides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Slides</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
+  <li><a href="#details-and-findings-of-analysis-processmethod" id="toc-details-and-findings-of-analysis-processmethod" class="nav-link" data-scroll-target="#details-and-findings-of-analysis-processmethod">Details and Findings of Analysis Process/Method</a>
+  <ul class="collapse">
+  <li><a href="#overview-of-methodologies-used" id="toc-overview-of-methodologies-used" class="nav-link" data-scroll-target="#overview-of-methodologies-used">Overview of Methodologies Used</a></li>
+  <li><a href="#detailed-analysis-methodologies-employed" id="toc-detailed-analysis-methodologies-employed" class="nav-link" data-scroll-target="#detailed-analysis-methodologies-employed">Detailed Analysis Methodologies Employed</a></li>
+  </ul></li>
+  <li><a href="#results-and-findings" id="toc-results-and-findings" class="nav-link" data-scroll-target="#results-and-findings">Results and Findings</a>
+  <ul class="collapse">
+  <li><a href="#hourly-sales-analysis" id="toc-hourly-sales-analysis" class="nav-link" data-scroll-target="#hourly-sales-analysis">Hourly Sales Analysis</a></li>
+  <li><a href="#sales-distribution-across-time-slots-and-product-categories" id="toc-sales-distribution-across-time-slots-and-product-categories" class="nav-link" data-scroll-target="#sales-distribution-across-time-slots-and-product-categories">Sales Distribution Across Time Slots and Product Categories</a></li>
+  <li><a href="#improved-sales-prediction-through-gradientboosting-model" id="toc-improved-sales-prediction-through-gradientboosting-model" class="nav-link" data-scroll-target="#improved-sales-prediction-through-gradientboosting-model">Improved Sales Prediction through GradientBoosting Model</a>
+  <ul class="collapse">
+  <li><a href="#variable-selection-and-model-building" id="toc-variable-selection-and-model-building" class="nav-link" data-scroll-target="#variable-selection-and-model-building">Variable Selection and Model Building</a></li>
+  <li><a href="#model-performance-improvement" id="toc-model-performance-improvement" class="nav-link" data-scroll-target="#model-performance-improvement">Model Performance Improvement</a></li>
+  <li><a href="#plot-interpretation" id="toc-plot-interpretation" class="nav-link" data-scroll-target="#plot-interpretation">Plot Interpretation</a></li>
+  <li><a href="#interpretation-and-analysis" id="toc-interpretation-and-analysis" class="nav-link" data-scroll-target="#interpretation-and-analysis">Interpretation and Analysis</a></li>
+  </ul></li>
+  <li><a href="#rfm-analysis-overview-for-customer-segmentation" id="toc-rfm-analysis-overview-for-customer-segmentation" class="nav-link" data-scroll-target="#rfm-analysis-overview-for-customer-segmentation">RFM Analysis Overview for Customer Segmentation</a>
+  <ul class="collapse">
+  <li><a href="#analysis-of-rfm-segmentation" id="toc-analysis-of-rfm-segmentation" class="nav-link" data-scroll-target="#analysis-of-rfm-segmentation">Analysis of RFM Segmentation</a></li>
+  </ul></li>
+  <li><a href="#analysis-of-customer-segmentation-using-k-means-clustering" id="toc-analysis-of-customer-segmentation-using-k-means-clustering" class="nav-link" data-scroll-target="#analysis-of-customer-segmentation-using-k-means-clustering">Analysis of Customer Segmentation using K-means Clustering</a></li>
+  </ul></li>
+  <li><a href="#interpretation-of-results" id="toc-interpretation-of-results" class="nav-link" data-scroll-target="#interpretation-of-results">Interpretation of Results</a></li>
+  <li><a href="#recommendations" id="toc-recommendations" class="nav-link" data-scroll-target="#recommendations">Recommendations</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><strong>PDF</strong>: <a href="../images/final.pdf" target="_blank">Final.pdf</a></p>
+<section id="executive-summary" class="level1">
+<h1>Executive Summary</h1>
+<p>The project focuses on XYZ Café, utilizing advanced data analysis to optimize operations and enhance customer engagement. By examining daily sales patterns, the project aims to uncover insights into customer preferences, aiding in efficient profit maximization.</p>
+<p>Using hourly variations in sales data, the project seeks to refine demand forecasting accuracy, enabling precise resource allocation. Improved regression analysis techniques are employed to better understand sales trends, enhancing decision-making.</p>
+<p>Key findings from the analysis highlight distinct peak sales hours, emphasizing morning and late afternoon periods. Varied consumer preferences across meal times guide potential menu adaptations and targeted marketing efforts. Notably, the enhanced GradientBoosting model improves sales prediction accuracy, laying a robust foundation for demand forecasting.</p>
+<p>Customer segmentation through RFM analysis and K-means clustering reveals valuable insights. High-value customer identification and distinctive purchasing behaviour clusters assist in tailored engagement strategies and optimized resource allocation.</p>
+<p>The amalgamation of these methodologies offers detailed insights into sales trends and customer behaviour, fostering informed decision-making crucial for the café’s sustainable growth and success. This data-driven approach enhances operational efficiency and strategic planning, ultimately augmenting the café’s competitive edge in the market.</p>
+</section>
+<section id="details-and-findings-of-analysis-processmethod" class="level1">
+<h1>Details and Findings of Analysis Process/Method</h1>
+<section id="overview-of-methodologies-used" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-methodologies-used">Overview of Methodologies Used</h2>
+<p>In the midterm submission, various analysis methods were initially employed to gain a comprehensive understanding of the café’s operational dynamics and customer engagement. Building upon this groundwork, the project has transitioned to implementing advanced techniques aimed at conducting a more exhaustive analysis. These enhanced methods aim to dive deeper into daily sales patterns by examining hourly variations, refining demand forecasting accuracy, and improving regression analysis techniques.</p>
+<p>The primary goal is to gain a finer understanding of when and what customers prefer, aiding in better profitability and efficient operations. By integrating these approaches, the project endeavours to unearth more intricate insights into sales trends and customer behaviours, contributing significantly to informed decision-making for the café’s sustainable growth and success.</p>
+</section>
+<section id="detailed-analysis-methodologies-employed" class="level2">
+<h2 class="anchored" data-anchor-id="detailed-analysis-methodologies-employed">Detailed Analysis Methodologies Employed</h2>
+<ol type="1">
+<li><p><strong>Examination of Sales Patterns Across Hours</strong></p>
+<p><strong>Data Processing and Initial Inspection:</strong></p>
+<ol type="1">
+<li><strong>Data Cleaning:</strong></li>
+</ol>
+<ul>
+<li>Checked for missing or inconsistent entries in the dataset, ensuring data integrity.</li>
+<li>Addressed any anomalies or discrepancies identified during the cleaning process.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Initial Data Inspection:</strong></li>
+</ol>
+<ul>
+<li>Conducted preliminary data exploration to understand the distribution and format of the hourly sales dataset.</li>
+<li>Utilized statistical measures and visualization techniques to observe trends and patterns within the data.</li>
+</ul>
+<p><strong>Hourly Sales Analysis Approach:</strong></p>
+<ol type="1">
+<li><strong>Hourly Sales Calculation:</strong></li>
+</ol>
+<ul>
+<li>Aggregated sales data on an hourly basis to discern hourly sales trends throughout the day.</li>
+<li>Calculated average sales values and assessed variations across different time slots.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Time Slot Identification:</strong></li>
+</ol>
+<ul>
+<li>Identified distinct time slots (e.g., morning, late afternoon, evening) for a detailed analysis of sales patterns.</li>
+<li>Segregated sales data to analyse peak and low-sales hours within each identified time slot.</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Pattern Recognition:</strong></li>
+</ol>
+<ul>
+<li>Applied descriptive statistical methods to unveil any noticeable trends or fluctuations in sales within each hourly segment.</li>
+<li>Considered the significance of specific hours in contributing to daily revenue.</li>
+</ul></li>
+<li><p><strong>Analysis of Sales Distribution Across Time Segments and Product Categories</strong></p>
+<p><strong>Data Segmentation and Preliminary Inspection:</strong></p>
+<ol type="1">
+<li><strong>Data Segregation:</strong></li>
+</ol>
+<ul>
+<li>Segmented sales data based on specific meal times (breakfast, brunch, tea time, lunch, dinner) and product categories.</li>
+<li>Prepared distinct subsets for each mealtime to analyse preferences and sales patterns.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Initial Pattern Recognition:</strong></li>
+</ol>
+<ul>
+<li>Conducted preliminary analysis to observe sales distribution across different meal times and product categories.</li>
+<li>Utilized descriptive statistical measures and visualization techniques to identify prevalent items and customer preferences within each segment.</li>
+</ul>
+<p><strong>Meal Time and Product Category Analysis Approach:</strong></p>
+<ol type="1">
+<li><strong>Meal Time Preferences:</strong></li>
+</ol>
+<ul>
+<li>Identified and categorized sales preferences based on distinct meal times, such as breakfast, brunch, and evening tea time.</li>
+<li>Analysed prevalent items and patterns during each mealtime to comprehend consumer choices and preferences.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Product Category Insights:</strong></li>
+</ol>
+<ul>
+<li>Segregated sales data based on product categories to understand popular items across varied categories like beverages, quick bites, snacks, and substantial meals.</li>
+<li>Explored consistent favourites and diverse choices within different product categories to highlight preferences across the menu.</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Consumer Behaviour Patterns:</strong></li>
+</ol>
+<ul>
+<li>Utilized statistical analysis to uncover consumer behaviour patterns specific to meal times and product categories.</li>
+<li>Observed variations in sales distribution to derive insights into focused versus varied sales patterns and their relevance for menu adaptations and marketing strategies.</li>
+</ul></li>
+<li><p><strong>Advancement in Sales Prediction using GradientBoosting Model</strong> <strong>Feature Selection and Preprocessing:</strong></p>
+<ol type="1">
+<li><strong>Variable Importance Assessment:</strong></li>
+</ol>
+<ul>
+<li>Evaluated features using SelectKBest from Scikit-learn to identify impactful variables.</li>
+<li>Prioritized variables based on their scores and statistical significance.</li>
+</ul>
+<p><strong>Model Training and Evaluation:</strong></p>
+<ol type="1">
+<li><strong>Model Comparison and Training:</strong></li>
+</ol>
+<ul>
+<li>Utilized various regression models (Linear Regression, Lasso, Ridge, RandomForest, GradientBoosting) for predictive analysis.</li>
+<li>Trained models with selected features to compare their performance.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Model Performance Assessment:</strong></li>
+</ol>
+<ul>
+<li>Assessed model performance metrics such as R-squared and Root Mean Squared Error (RMSE) to gauge predictive accuracy.</li>
+<li>Evaluated the effectiveness of each model in capturing sales trends and patterns.</li>
+</ul>
+<p><strong>Visualization and Result Interpretation:</strong></p>
+<ol type="1">
+<li><strong>Predictive Model Visualization:</strong></li>
+</ol>
+<ul>
+<li>Generated visualizations depicting actual versus predicted sales trends using the GradientBoosting model.</li>
+<li>Analysed the alignment between predicted and actual trends to validate model accuracy.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Model Improvement Analysis:</strong></li>
+</ol>
+<ul>
+<li>Compared the GradientBoosting model’s performance against prior models (e.g., Linear Regression) to emphasize the improvement in prediction accuracy.</li>
+<li>Interpreted the significance of the enhanced model in capturing intricate sales patterns for informed decision-making.</li>
+</ul></li>
+<li><p><strong>Exploration of Customer Segmentation through RFM Analysis</strong></p>
+<p><strong>Data Segmentation:</strong></p>
+<ol type="1">
+<li><strong>Data Segmentation and Feature Extraction:</strong></li>
+</ol>
+<ul>
+<li>Segmented the dataset into individual customer transactions for subsequent RFM analysis.</li>
+<li>Extracted essential features: recency of purchase, frequency of transactions, and monetary value spent per transaction.</li>
+</ul>
+<p><strong>RFM Score Derivation:</strong></p>
+<ol type="1">
+<li><strong>Recency Score Determination:</strong></li>
+</ol>
+<ul>
+<li>Calculated the recency score for each customer transaction by assessing the time interval since their last purchase.</li>
+<li>Assigned higher scores to more recent transactions for recency analysis.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Frequency Score Calculation:</strong></li>
+</ol>
+<ul>
+<li>Computed the frequency score by analysing the total number of transactions made by each customer during the analysed period.</li>
+<li>Assigned higher scores to customers with more frequent purchases for frequency analysis.</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Monetary Value Score Evaluation:</strong></li>
+</ol>
+<ul>
+<li>Evaluated the monetary value score by assessing the total monetary contribution made by each customer.</li>
+<li>Assigned higher scores to customers with greater monetary spending for monetary value analysis.</li>
+</ul>
+<p><strong>RFM Segmentation:</strong></p>
+<ol type="1">
+<li><strong>RFM Segment Creation:</strong></li>
+</ol>
+<ul>
+<li>Combined individual recency, frequency, and monetary scores into a three-digit RFM segment to categorize customers based on their transaction behaviours.</li>
+<li>Established distinct customer segments delineating high-value, moderately active, and dormant customers.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Segment Analysis and Interpretation:</strong></li>
+</ol>
+<ul>
+<li>Analysed and interpreted the RFM segments to derive actionable insights regarding customer behaviours and preferences.</li>
+</ul></li>
+<li><p><strong>Customer Behaviour Profiling using K-means Clustering</strong></p>
+<p><strong>Data Processing and Exploration:</strong></p>
+<ol type="1">
+<li><strong>Data Preprocessing:</strong></li>
+</ol>
+<ul>
+<li>Checked for data consistency, ensuring uniformity and accuracy within the dataset.</li>
+<li>Addressed any outliers or irregularities that might influence the clustering process.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Feature Scaling:</strong></li>
+</ol>
+<ul>
+<li>Applied feature scaling techniques to normalize the ‘Item Price’ and ‘Quantity’ attributes, ensuring equal weightage during the clustering process.</li>
+<li>Ensured fair comparison between variables by scaling their ranges appropriately.</li>
+</ul>
+<p><strong>K-means Clustering Execution:</strong></p>
+<ol type="1">
+<li><strong>Optimal Cluster Identification:</strong></li>
+</ol>
+<ul>
+<li>Utilized the elbow method to determine the optimal number of clusters for customer segmentation.</li>
+<li>Chose the number of clusters that best represented distinctive customer behaviours, while avoiding overfitting.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Clustering Algorithm Implementation:</strong></li>
+</ol>
+<ul>
+<li>Executed the K-means clustering algorithm on the preprocessed dataset to partition customers into distinct groups based on their purchasing behaviours.</li>
+<li>Observed the grouping patterns and relationships between customers within each cluster.</li>
+</ul>
+<p><strong>Pattern Analysis and Customer Group Interpretation:</strong></p>
+<ol type="1">
+<li><strong>Cluster Characteristics Examination:</strong></li>
+</ol>
+<ul>
+<li>Analysed each identified cluster’s characteristics in terms of purchasing patterns, focusing on ‘Item Price’ and ‘Quantity’ combinations.</li>
+<li>Extracted meaningful insights regarding customer preferences and tendencies within each cluster.</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="results-and-findings" class="level1">
+<h1>Results and Findings</h1>
+<section id="hourly-sales-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="hourly-sales-analysis">Hourly Sales Analysis</h2>
+<p><img src="../images/hourly.png" class="img-fluid"></p>
+<p><strong>Peak Sales Hours:</strong></p>
+<ul>
+<li><strong>Morning Peak:</strong> The hour between 10 AM and 11 AM stands out as the period with the highest average hourly sales, reaching approximately ₹154.80.</li>
+<li><strong>Late Afternoon:</strong> Another significant peak is observed in the late afternoon around 3 PM, with average sales of around ₹97.48.</li>
+</ul>
+<p><strong>Morning vs.&nbsp;Afternoon Sales:</strong></p>
+<ul>
+<li><strong>Morning Hours:</strong> Generally, the morning hours witness higher sales, with an average ranging from ₹35.69 to ₹154.80 per hour.</li>
+<li><strong>Afternoon Hours:</strong> After a slight dip during noon, sales pick up again, maintaining an average ranging from ₹20.49 to ₹99.16.</li>
+</ul>
+<p><strong>Evening Sales Trend:</strong></p>
+<ul>
+<li><strong>Evening Hours:</strong> Sales gradually decrease in the evening hours, dropping to an average ranging from ₹9.53 to ₹29.29 during these hours.</li>
+</ul>
+<p><strong>Insights:</strong></p>
+<ul>
+<li><strong>Peak Hours for Revenue:</strong> The morning hours, especially around 10 AM, contribute significantly to the daily revenue, suggesting higher customer footfall or increased spending during this time.</li>
+<li><strong>Afternoon Consistency:</strong> After a slight dip during noon, sales maintain a relatively consistent pattern throughout the late afternoon.</li>
+<li><strong>Evening Decline:</strong> Sales gradually decrease towards the evening, indicating a decrease in customer traffic or spending during these hours.</li>
+</ul>
+</section>
+<section id="sales-distribution-across-time-slots-and-product-categories" class="level2">
+<h2 class="anchored" data-anchor-id="sales-distribution-across-time-slots-and-product-categories">Sales Distribution Across Time Slots and Product Categories</h2>
+<p><img src="../images/time_slot.png" class="img-fluid"></p>
+<p><strong>Breakfast:</strong></p>
+<ul>
+<li><strong>Tea/Coffee Preference:</strong> Dominant sales of Tea/Coffee, holding a share of approximately 29.9%, indicate a strong morning beverage preference among customers.</li>
+<li><strong>Quick Bites:</strong> Maggi, Sandwich, and Vadapav collectively constitute around 43.2% of breakfast sales, indicating popularity for quick morning bites.</li>
+</ul>
+<p><strong>Brunch:</strong></p>
+<ul>
+<li><strong>Varied Choices:</strong> Brunch displays a diverse range of sales across categories, with Tea/Coffee, Maggi, and Vadapav maintaining popularity, together representing about 48.6% of sales.</li>
+<li><strong>Continued Preference:</strong> These items, particularly Tea/Coffee, Maggi, and Vadapav, maintain their popularity during the mid-morning period.</li>
+</ul>
+<p><strong>Evening Tea Time:</strong></p>
+<ul>
+<li><strong>Consistent Choices:</strong> Tea/Coffee continues to lead during this period, representing around 26.1% of sales.</li>
+<li><strong>Snacks and Accompaniments:</strong> Chaats and Sandwiches gain traction, comprising about 28.2% of sales, possibly as preferred evening accompaniments.</li>
+</ul>
+<p><strong>Dinner and Lunch:</strong></p>
+<ul>
+<li><strong>Focused Choices:</strong> Paratha, Chole, and Chaat dominate sales during these meals, collectively representing approximately 58.5% during dinner and around 71.9% during lunch.</li>
+<li><strong>Heavier Meal Preference:</strong> Customers seem to prefer more substantial meal items during lunch and dinner times.</li>
+</ul>
+<p><strong>Insights:</strong></p>
+<ul>
+<li><strong>Time-specific Preferences:</strong> Different times of the day exhibit specific consumer preferences, from morning beverages to substantial meal items.</li>
+<li><strong>Consistent Favourites:</strong> Tea/Coffee remains a popular choice across multiple time slots, representing a significant portion of sales in various periods.</li>
+<li><strong>Varied vs.&nbsp;Focused Sales:</strong> Brunch and Evening Tea Time offer a broader variety of choices, whereas Lunch and Dinner seem to focus on specific meal items, catering to more substantial meal preferences.</li>
+</ul>
+</section>
+<section id="improved-sales-prediction-through-gradientboosting-model" class="level2">
+<h2 class="anchored" data-anchor-id="improved-sales-prediction-through-gradientboosting-model">Improved Sales Prediction through GradientBoosting Model</h2>
+<section id="variable-selection-and-model-building" class="level3">
+<h3 class="anchored" data-anchor-id="variable-selection-and-model-building">Variable Selection and Model Building</h3>
+<p>Initially, feature selection was performed using SelectKBest, where Feature_1 exhibited the highest score (5.35) and a statistically significant p-value (0.0208). Other features, such as Feature_2, and Feature_3, showed varied scores and p-values.</p>
+<p>Subsequently, five models (Model_1, Model_2, Model_3, Model_4, and Model_5) were trained with these features. Upon evaluation, Model_5 emerged with the most promising performance among these models, showcasing an R-squared value of 0.0266 and an RMSE of 207.50, indicating its superior predictive capability compared to other models.</p>
+</section>
+<section id="model-performance-improvement" class="level3">
+<h3 class="anchored" data-anchor-id="model-performance-improvement">Model Performance Improvement</h3>
+<p>The previous analysis (Midterm) involved a Model_1 with an R-squared around -0.5, signifying a poor fit. However, Model_5, despite a moderately improved R-squared value of 0.0266, demonstrated a significant advancement in prediction accuracy, reducing the RMSE to 207.5. This signifies a substantial enhancement in predictive power and a departure from the poor predictive performance observed previously.</p>
+</section>
+<section id="plot-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="plot-interpretation">Plot Interpretation</h3>
+<p><img src="../images/rmse.png" class="img-fluid"></p>
+<p>Visualizing actual sales versus predicted sales in a line plot for total daily sales showed a notable alignment between the predicted and actual trends when employing the Model_5. This proximity between the predicted and actual trends signifies the model’s capacity to accurately capture sales patterns, offering a strong foundation for decision-making in demand forecasting and business strategies.</p>
+</section>
+<section id="interpretation-and-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation-and-analysis">Interpretation and Analysis</h3>
+<p>Despite the moderate improvement in the R-squared value from the prior poor fit, the transition from a negative R-squared to a positive one, especially when moving from Model_1 to Model_5, is a significant achievement. The model’s demonstrated ability to closely predict actual sales trends indicates its reliability in capturing intricate sales patterns, thus providing valuable insights for informed decision-making in business strategies and demand forecasting.</p>
+</section>
+</section>
+<section id="rfm-analysis-overview-for-customer-segmentation" class="level2">
+<h2 class="anchored" data-anchor-id="rfm-analysis-overview-for-customer-segmentation">RFM Analysis Overview for Customer Segmentation</h2>
+<p>The RFM (Recency, Frequency, Monetary) analysis is a powerful technique used to segment customers based on their transaction behaviours. To derive the RFM values, the following steps were undertaken:</p>
+<ol type="1">
+<li><strong>Recency (R-score)</strong>: It denotes the time since the last transaction made by each customer. Customers with lower scores have more recent purchases. Ranging from 1 (least recent) to 4 (most recent).</li>
+<li><strong>Frequency (F-score)</strong>: It represents the total number of transactions made by each customer during the analysed period. A higher score implies more frequent purchases. Ranging from 1 (least frequent) to 4 (most frequent).</li>
+<li><strong>Monetary (M-score)</strong>: It indicates the total monetary value spent by each customer. A higher score signifies higher monetary contributions. Ranging from 1 (least monetary value) to 4 (most monetary value).</li>
+</ol>
+<section id="analysis-of-rfm-segmentation" class="level3">
+<h3 class="anchored" data-anchor-id="analysis-of-rfm-segmentation">Analysis of RFM Segmentation</h3>
+<p><img src="../images/rfm head.png" class="img-fluid"></p>
+<p>The RFM_Segment column combines the individual R, F, and M scores into a three-digit number (RFM) that segments customers based on their behaviours.</p>
+<p><strong>High-Value Customers</strong>: Customers with an RFM segment of 444 or similar (e.g., 434, 444) are high-value customers. They have made recent purchases (R-score = 4), frequent transactions (F-score = 4), and contribute significantly in terms of monetary value (M-score = 4).</p>
+<p><strong>Loyal but Less Frequent Buyers</strong>: Segments like 422, 213, or 243 represent customers who might not make purchases as frequently but contribute substantially in terms of monetary value. They are recent buyers (R-score = 4) who spend well (M-score = 4 or 3) but with moderate frequency (F-score = 1 or 2).</p>
+<p><strong>Churned or Dormant Customers</strong>: Customers with segments like 111 or 121 signify those who haven’t made purchases recently (R-score = 1) or spend less despite some frequency (F-score = 2 or 3).</p>
+<p><img src="../images/rfm_dark_single_row.png" class="img-fluid"></p>
+<p>Understanding these segments assists the café in optimizing resource allocation. For instance, focusing on high-value customers for loyalty programs, devising strategies to increase the frequency of moderately active customers, and engaging in negotiations with the dormant ones for exclusive deals. This approach aligns with the café’s limited resources, aiming to maximize customer engagement and revenue with targeted efforts.</p>
+</section>
+</section>
+<section id="analysis-of-customer-segmentation-using-k-means-clustering" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-of-customer-segmentation-using-k-means-clustering">Analysis of Customer Segmentation using K-means Clustering</h2>
+<p>The optimal number of clusters for customer segmentation using K-means clustering was determined to be 3, employing the elbow technique. The clustering analysis was performed on the features ‘Item Price’ and ‘Quantity’.</p>
+<p>The resulting clusters exhibited distinctive characteristics:</p>
+<ul>
+<li><strong>Cluster 1: Low Priced Items and Low Quantity Bought</strong>: This cluster comprises customers who tend to purchase low-priced items in smaller quantities.</li>
+<li><strong>Cluster 2: High Priced Items and Low Quantity Bought</strong>: Customers in this cluster show a preference for higher-priced items but make purchases in lower quantities.</li>
+<li><strong>Cluster 3: Low Priced Items and High Quantity Bought</strong>: This cluster represents customers who consistently purchase low-priced items in larger quantities.</li>
+</ul>
+<p>Upon analysis, an intriguing observation was made: there appeared to be no distinct cluster representing customers who purchase expensive items in high quantities. This absence suggests that within the dataset and based on the analysed features, customers who buy items in larger quantities tend to opt for lower-priced items.</p>
+<p><img src="../images/kmeans.png" class="img-fluid"></p>
+<p>The elbow plot showcasing the within-cluster sum of squares (WCSS) against the number of clusters indicated a clear ‘elbow’ or point of inflection at 3 clusters, signifying that additional clusters beyond this point do not significantly improve the model’s explanatory power.</p>
+<p>The K-means clustering scatter plot, using ‘Item Price’ and ‘Quantity’ as axes, demonstrates the segregation of customers into these distinct clusters. These clusters provide valuable insights into customers’ purchasing behaviours based on price and quantity, allowing businesses to tailor marketing strategies, optimize inventory, and enhance product offerings to better meet the preferences and demands of different customer segments.</p>
+</section>
+</section>
+<section id="interpretation-of-results" class="level1">
+<h1>Interpretation of Results</h1>
+<ol type="1">
+<li><strong>Peaks in Sales Throughout the Day:</strong>
+<ul>
+<li><strong>Revealed Patterns:</strong> Analysis of sales data pinpointed distinctive peaks in sales volume during specific hours, notably registering an average of ₹154.80 between 10 AM and 11 AM and approximately ₹97.48 around 3 PM.</li>
+<li><strong>Operational Influence:</strong> These discernible patterns in customer purchasing behaviours highlight the critical importance of tailored operational strategies to capitalize on high-traffic hours, thereby optimizing revenue streams. For instance, employing additional staff during peak times can expedite service and enhance customer satisfaction, ultimately bolstering sales.</li>
+</ul></li>
+<li><strong>Product Preferences Across Time Frames:</strong>
+<ul>
+<li><strong>Time-Specific Consumer Choices:</strong> The analysis underscored shifting product preferences across various time slots. Notably, items like Tea/Coffee, Maggi, Sandwiches, and Vadapav exhibited substantial sales during breakfast and brunch hours, while Chaats and Sandwiches gained traction during the evening tea time.</li>
+<li><strong>Strategic Relevance:</strong> Recognizing these time-bound preferences provides a roadmap for menu adaptations and targeted marketing efforts. For instance, offering combo deals during popular hours or introducing new variants of favoured items during specific time frames can leverage these insights to attract and retain customers.</li>
+</ul></li>
+<li><strong>Enhanced Predictive Modelling:</strong>
+<ul>
+<li><strong>Model Improvement:</strong> Comparing previous models, the transition from a poorly performing Linear Regression model (R-squared: -0.5) to the more accurate GradientBoosting model (R-squared: 0.0266) represents a significant improvement in predictive capability.</li>
+<li><strong>Decision-making Empowerment:</strong> The enhanced predictive accuracy empowers decision-making processes, enabling precise inventory management, demand forecasting, and strategic pricing. For instance, leveraging the GradientBoosting model for forecasting can prevent overstocking or understocking, optimizing resource allocation and boosting profitability.</li>
+</ul></li>
+<li><strong>Segmentation Insights via RFM Analysis:</strong>
+<ul>
+<li><strong>Customer Segmentation Revelation:</strong> RFM analysis revealed distinct customer segments such as high-value customers (RFM score of 444), occasional but high-spending buyers (e.g., 422, 213, or 243), and dormant customers (e.g., 111 or 121).</li>
+<li><strong>Targeted Engagement Potential:</strong> Understanding and targeting specific customer segments presents an opportunity to tailor engagement strategies. For instance, creating loyalty programs for high-value patrons, offering personalized deals to reactivate dormant customers, and devising strategies to increase the frequency of moderately active buyers can significantly enhance customer retention and revenue.</li>
+</ul></li>
+<li><strong>Diverse Customer Clusters via K-means Analysis:</strong>
+<ul>
+<li><strong>Varied Buying Behaviours:</strong> Analysis through K-means clustering revealed diverse purchasing behaviours across distinct customer clusters. For instance, Cluster 1 primarily consists of customers purchasing low-priced items in smaller quantities, while Cluster 3 comprises individuals consistently buying low-priced items in larger quantities.</li>
+<li><strong>Strategic Utilization:</strong> Leveraging these diverse clusters allows for personalized marketing strategies. For instance, providing discounts on bulk purchases for Cluster 3 or introducing premium variants for high-priced items targeted at Cluster 2 can optimize inventory and foster customer loyalty.</li>
+</ul></li>
+</ol>
+</section>
+<section id="recommendations" class="level1">
+<h1>Recommendations</h1>
+<ol type="1">
+<li><strong>Optimizing Operations for Peak Sales Hours:</strong>
+<ul>
+<li>Allocate additional resources during peak sales hours, especially between 10 AM and 11 AM, when the average hourly sales reach approximately ₹154.80.</li>
+<li>For instance, streamline workflows during these peak hours to manage the higher customer footfall effectively.</li>
+</ul></li>
+<li><strong>Tailoring Menu Offerings and Promotions based on Time-Specific Preferences:</strong>
+<ul>
+<li>Introduce time-specific promotions and customized menu items according to customer preferences identified in different time slots.</li>
+<li>For instance, during the late afternoon, emphasize sales of popular items like Tea/Coffee and Vadapav, and consider offering combo deals during these hours to maintain consistent sales levels.</li>
+</ul></li>
+<li><strong>Utilizing Predictive Models for Effective Business Strategies:</strong>
+<ul>
+<li>Leverage the GradientBoosting model, exhibiting an improved R-squared value of 0.0266 and an RMSE of 207.50, for precise demand forecasting and inventory management.</li>
+<li>Utilize this model to predict future sales patterns and optimize inventory levels accordingly, ensuring stock availability for high-demand items during peak hours while minimizing wastage.</li>
+</ul></li>
+<li><strong>Enhancing Customer Engagement through Segmentation Strategies:</strong>
+<ul>
+<li>Develop tailored loyalty programs targeting high-value customers identified through RFM analysis, such as those with an RFM segment of 444.</li>
+<li>Offer personalized incentives or exclusive deals to these customers, for instance, providing discounts on frequent purchases or rewarding them with loyalty points for increased engagement.</li>
+</ul></li>
+<li><strong>Customizing Business Approach based on Customer Clusters:</strong>
+<ul>
+<li>Tailor marketing campaigns and inventory stocking based on distinct customer behaviours identified through K-means clustering.</li>
+<li>For example, for customers in Cluster 1 preferring low-priced items in smaller quantities, create promotions offering bundled discounts or combo deals on these items to encourage higher purchase volumes.</li>
+</ul></li>
+<li><strong>Stimulating Sales during Evening Hours:</strong>
+<ul>
+<li>Analyze reasons behind the decline in sales during evening hours, where the average dropped to an average ranging from ₹9.53 to ₹29.29.</li>
+<li>Implement targeted marketing strategies, such as offering early bird discounts for dinner items or introducing evening specials, to attract more customers during these hours and stimulate sales.</li>
+</ul></li>
+<li><strong>Diversifying Product Offerings for Brunch and Evening Tea Time:</strong>
+<ul>
+<li>Expand the menu offerings for Brunch and Evening Tea Time to cater to diverse preferences observed during these slots.</li>
+<li>For instance, introduce new snack options or variations on popular items like Chaats and Sandwiches to enhance customer choices and drive sales during these periods.</li>
+</ul></li>
+</ol>
+<p>By implementing these concrete recommendations derived from the detailed analysis findings, XYZ Café can strategically optimize its operations, refine its marketing strategies, and enhance customer engagement, thereby fostering sustained growth and revenue maximization in the highly competitive food industry landscape.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

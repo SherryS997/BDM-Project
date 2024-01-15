@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>BDM-Project - Data-Driven Transformation: Optimizing Operations and Customer Engagement at ABC Café</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-roman.css">
+<link rel="stylesheet" href="https://lalten.github.io/lmweb/style/latinmodern-mono.css">
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../pages/mid-term.html">Mid-Term Submission</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">BDM-Project</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/proposal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Proposal</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/mid-term.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Mid-Term Submission</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/final.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Submission</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/slides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Slides</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
+  <li><a href="#proof-of-originality-of-the-data" id="toc-proof-of-originality-of-the-data" class="nav-link" data-scroll-target="#proof-of-originality-of-the-data">Proof of Originality of the Data</a>
+  <ul class="collapse">
+  <li><a href="#data-source-clarification" id="toc-data-source-clarification" class="nav-link" data-scroll-target="#data-source-clarification">Data Source Clarification</a></li>
+  <li><a href="#confirmation-documentation-and-other-evidence" id="toc-confirmation-documentation-and-other-evidence" class="nav-link" data-scroll-target="#confirmation-documentation-and-other-evidence">Confirmation Documentation and Other Evidence</a></li>
+  </ul></li>
+  <li><a href="#metadata-and-descriptive-statistics" id="toc-metadata-and-descriptive-statistics" class="nav-link" data-scroll-target="#metadata-and-descriptive-statistics">Metadata and Descriptive Statistics</a>
+  <ul class="collapse">
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a>
+  <ul class="collapse">
+  <li><a href="#metadata-invoice.csv" id="toc-metadata-invoice.csv" class="nav-link" data-scroll-target="#metadata-invoice.csv">Metadata: <code>invoice.csv</code></a></li>
+  <li><a href="#metadata-office_sales.csv" id="toc-metadata-office_sales.csv" class="nav-link" data-scroll-target="#metadata-office_sales.csv">Metadata: <code>office_sales.csv</code></a></li>
+  </ul></li>
+  <li><a href="#descriptive-statistics" id="toc-descriptive-statistics" class="nav-link" data-scroll-target="#descriptive-statistics">Descriptive Statistics</a>
+  <ul class="collapse">
+  <li><a href="#numerical-data-analysis" id="toc-numerical-data-analysis" class="nav-link" data-scroll-target="#numerical-data-analysis">Numerical Data Analysis</a></li>
+  <li><a href="#categorical-data-analysis" id="toc-categorical-data-analysis" class="nav-link" data-scroll-target="#categorical-data-analysis">Categorical Data Analysis</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#detailed-explanation-of-analysis-processmethod" id="toc-detailed-explanation-of-analysis-processmethod" class="nav-link" data-scroll-target="#detailed-explanation-of-analysis-processmethod">Detailed Explanation of Analysis Process/Method</a>
+  <ul class="collapse">
+  <li><a href="#sales-forecasting-through-arima-time-series-analysis" id="toc-sales-forecasting-through-arima-time-series-analysis" class="nav-link" data-scroll-target="#sales-forecasting-through-arima-time-series-analysis">Sales Forecasting through ARIMA Time Series Analysis</a></li>
+  <li><a href="#linear-regression-analysis-total-sales-prediction-based-on-time-and-customer-type" id="toc-linear-regression-analysis-total-sales-prediction-based-on-time-and-customer-type" class="nav-link" data-scroll-target="#linear-regression-analysis-total-sales-prediction-based-on-time-and-customer-type">Linear Regression Analysis: Total Sales Prediction Based on Time and Customer Type</a></li>
+  <li><a href="#customer-type-based-popular-product-analysis" id="toc-customer-type-based-popular-product-analysis" class="nav-link" data-scroll-target="#customer-type-based-popular-product-analysis">Customer Type-based Popular Product Analysis</a></li>
+  </ul></li>
+  <li><a href="#results-and-findings" id="toc-results-and-findings" class="nav-link" data-scroll-target="#results-and-findings">Results and Findings</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data-Driven Transformation: Optimizing Operations and Customer Engagement at ABC Café</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><strong>PDF</strong>: <a href="../images/mid-term.pdf" target="_blank">Mid Term.pdf</a></p>
+<section id="executive-summary" class="level1">
+<h1>Executive Summary</h1>
+<p>The ABC Café business data management midterm submission involves an in-depth analysis of transactional data from July to October 2023, aiming to enhance operational efficiency and customer engagement. Two primary datasets, <code>invoice.csv</code> and <code>office_sales.csv</code>, were meticulously studied to extract key insights.</p>
+<p><code>invoice.csv</code> comprising 1419 entries revealed transaction details like Transaction Date, Product/Item Name, Quantity, and Total Amount. Notably, the dataset reflected transactional specifics, enlightening the operational aspects vital for strategic enhancements. Meanwhile, <code>office_sales.csv</code> with 290 entries provided coherent transactional details, offering crucial insights into “to-office-specific” sales dynamics.</p>
+<p>Descriptive statistics highlighted numerical and categorical data analyses, uncovering popular product categories, customer types, and prevalent payment methods. Advanced analysis techniques including ARIMA time series forecasting, linear regression, and customer type-based clustering were employed to forecast sales trends, approximate daily sales patterns, and unveil distinct preferences across different customer types.</p>
+<p>Key findings emphasized successful sales trend capturing by the ARIMA model, distinct preferences showcased by customer type-based clustering, and the capability of linear regression to portray overall sales trends. The next phase (Final Submission) will delve deeper into daily sales analysis, improved forecasting, and comprehensive customer segmentation, promising heightened efficiency and informed decision-making for sustained growth at the café.</p>
+</section>
+<section id="proof-of-originality-of-the-data" class="level1">
+<h1>Proof of Originality of the Data</h1>
+<p>Access the evidence substantiating the originality and authenticity of the datasets utilized for the Business Data Management project can be found in this link: [Link to the evidence].</p>
+<section id="data-source-clarification" class="level2">
+<h2 class="anchored" data-anchor-id="data-source-clarification">Data Source Clarification</h2>
+<p><strong><code>invoice.csv</code></strong>: Obtained directly from the café owner, these files comprise raw sales data from the POS system, encapsulating transactional records from July 2023 to October 2023.</p>
+<p><strong><code>office_sales.csv</code></strong>: Generated via Tabula from office sales bills PDFs, delineating sales to various offices within the VTC shopping complex during the same period.</p>
+<p>Both datasets originate from ABC Café, with <code>invoice.csv</code> directly sourced and <code>office_sales.csv</code> extracted meticulously from authentic documents.</p>
+</section>
+<section id="confirmation-documentation-and-other-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="confirmation-documentation-and-other-evidence">Confirmation Documentation and Other Evidence</h2>
+<p><strong>Owner’s Declaration</strong>: A formal letter from the proprietor asserting cooperation and data provision for this project.</p>
+<p><strong>GMeet Recording and Photos of the shop</strong>: Supplementary materials encompassing a recorded discussion with [Owner Name], the café owner, along with pictures of the café premises.</p>
+</section>
+</section>
+<section id="metadata-and-descriptive-statistics" class="level1">
+<h1>Metadata and Descriptive Statistics</h1>
+<section id="metadata" class="level2">
+<h2 class="anchored" data-anchor-id="metadata">Metadata</h2>
+<section id="metadata-invoice.csv" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-invoice.csv">Metadata: <code>invoice.csv</code></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/invoice.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">pd.DataFrame(‘invoice.csv’).head()</figcaption>
+</figure>
+</div>
+<p>The dataset <code>invoice.csv</code> comprises 1419 entries capturing transactions at ABC Café for the months July 2023 to October 2023. It delineates vital aspects instrumental in optimizing operational efficiency.</p>
+<section id="data-composition" class="level4">
+<h4 class="anchored" data-anchor-id="data-composition">Data Composition</h4>
+<p>The dataset encompasses 15 columns revealing transaction details such as Transaction Date, Product/Item Name, Quantity, and Total Amount. Notably, the column Customer holds null values, as the recording machinery sometimes fails to input this information into the database.</p>
+<p>The absence of entries in the Customer column signifies transactions where customer identification wasn’t recorded, limiting insights into specific consumer behaviour or preferences.</p>
+<p>Additionally, the Platform column, populated only for transactions categorized under Online in Customer Type, elucidates the external platforms (Zomato or Swiggy) through which online orders were placed.</p>
+</section>
+<section id="data-integrity-anomalies" class="level4">
+<h4 class="anchored" data-anchor-id="data-integrity-anomalies">Data Integrity &amp; Anomalies</h4>
+<p>Anomalies in this dataset include null entries in the Customer column, affecting the comprehensiveness of customer-centric analysis.</p>
+<p>Wide-ranging values in Quantity (ranging from 1 to 120) and Total Amount (ranging from 10 to 3600) hint at potential outliers or diverse order sizes, warranting further scrutiny for data consistency and outlier detection.</p>
+</section>
+</section>
+<section id="metadata-office_sales.csv" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-office_sales.csv">Metadata: <code>office_sales.csv</code></h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/office_sales.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">pd.DataFrame(‘office_sales.csv’).head()</figcaption>
+</figure>
+</div>
+<p>The <code>office_sales.csv</code> dataset, comprising 290 entries, portrays sales to office clientele, derived from scanned bills in PDF format using Tabula.</p>
+<section id="data-source-composition" class="level4">
+<h4 class="anchored" data-anchor-id="data-source-composition">Data Source &amp; Composition</h4>
+<p>This dataset encapsulates key transactional details like Product/Item Name, Quantity, Item Price, and Total Amount, crucial for understanding sales dynamics to office customers.</p>
+<p>The extraction process from PDF bills via Tabula ensures the representation of sales data from various office transactions, contributing to the understanding of office-specific product preferences and purchase patterns.</p>
+</section>
+<section id="data-characteristics" class="level4">
+<h4 class="anchored" data-anchor-id="data-characteristics">Data Characteristics</h4>
+<p>The dataset exhibits a consistent structure without missing values, ensuring reliability in analysing office sales trends.</p>
+<p>Notably, the range in Quantity (from 1 to 219) might require outlier identification to maintain dataset consistency and accuracy in subsequent analyses.</p>
+</section>
+</section>
+</section>
+<section id="descriptive-statistics" class="level2">
+<h2 class="anchored" data-anchor-id="descriptive-statistics">Descriptive Statistics</h2>
+<section id="numerical-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="numerical-data-analysis">Numerical Data Analysis</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/describe.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">df.describe()</figcaption>
+</figure>
+</div>
+<p><strong>Quantity, Item Price, Total Amount</strong>: The invoice dataset consists of 1419 entries. The mean quantity sold per transaction is approximately 2.23, with a standard deviation of around 4.43. The mean item price is approximately Rs. 31.13, ranging from Rs. 9.52 to Rs. 95.24. The mean total amount per transaction is about Rs. 74.08, with a considerable range from Rs. 10 to Rs. 3600.</p>
+<p><strong>Significance of Statistics</strong>: The statistical measures, including mean, median, and range, unveil insights crucial for operational decisions. They reveal sales’ typical volume, pricing distribution, and transaction sizes, aiding precise inventory management, pricing strategies, and identification of influential outlier transactions impacting overall revenue.</p>
+</section>
+<section id="categorical-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="categorical-data-analysis">Categorical Data Analysis</h3>
+<p><img src="../images/prod cat dist.png" class="img-fluid"></p>
+<p><strong>Product Category</strong>: Tea/Coffee, Vadapav, and Chaat appear to be popular categories, indicating potential high-demand items. Time Distribution: Most transactions occur during Brunch and Evening Tea Time, with a relatively smaller proportion taking place during Breakfast, Lunch, and Dinner.</p>
+<p><img src="../images/time dist.png" class="img-fluid"></p>
+<p><strong>Time Distribution</strong>: Most transactions occur during Brunch and Evening Tea Time, with a relatively smaller proportion taking place during Breakfast, Lunch, and Dinner.</p>
+<p><img src="../images/cust dist.png" class="img-fluid"></p>
+<p><strong>Customer Type</strong>: The Majority of transactions are from Dine-in customers and Office Orders, with a smaller portion from Online and Event Catering.</p>
+<p><strong>Payment Method</strong>: Cash, Paytm, GPay, and PhonePay are commonly used, while Credit Card, and Debit Card constitute a smaller portion.</p>
+</section>
+</section>
+</section>
+<section id="detailed-explanation-of-analysis-processmethod" class="level1">
+<h1>Detailed Explanation of Analysis Process/Method</h1>
+<section id="sales-forecasting-through-arima-time-series-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="sales-forecasting-through-arima-time-series-analysis">Sales Forecasting through ARIMA Time Series Analysis</h2>
+<p><img src="../images/arima mid.png" class="img-fluid"></p>
+<p>Utilizing the ARIMA (AutoRegressive Integrated Moving Average) model with parameter values (p, d, q) of (3, 1, 0) via the auto_arima function from the pmdarima package, an insightful sales forecast was generated. This model effectively captured the prevailing trend in sales data, showcasing its potential in forecasting future sales patterns. The plotted forecast, juxtaposed with existing trends, demonstrates the model’s ability to analyse sequential transactional data, providing valuable insights for ABC Café in [City] to optimize inventory management and operational strategies.</p>
+</section>
+<section id="linear-regression-analysis-total-sales-prediction-based-on-time-and-customer-type" class="level2">
+<h2 class="anchored" data-anchor-id="linear-regression-analysis-total-sales-prediction-based-on-time-and-customer-type">Linear Regression Analysis: Total Sales Prediction Based on Time and Customer Type</h2>
+<p><img src="../images/reg mid.png" class="img-fluid"></p>
+<p>Despite an R-squared score of -0.52, the Linear Regression model, utilizing “Hour” and “Customer Type” as independent variables and “Total Amount” as the dependent variable, provided a meaningful portrayal of the overall daily sales trends. The visual representation of predicted versus actual sales through a line plot indicates the model’s capability to approximate the general sales patterns throughout the day, considering different customer types. Although the R-squared score may suggest some variance from the actual data, the model offers insights into the cumulative sales trends, serving as a valuable tool for sales estimation at ABC Café in [City].</p>
+</section>
+<section id="customer-type-based-popular-product-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="customer-type-based-popular-product-analysis">Customer Type-based Popular Product Analysis</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/wordcloud.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">WordCloud representing Popular Items among different Customer Types</figcaption>
+</figure>
+</div>
+<p>Utilizing clustering techniques, a customer type-centric analysis unveils distinct preferences at ABC Café. Among “Office Orders”, “Tea” emerges as the favoured choice, resonating with the professional ambiance. Conversely, “Coffee” dominates the preferences for “Dine-in,” reflecting the café’s ambiance and the inclination for a leisurely experience. Surprisingly, “Chole Bhature” stands out as the top pick for “Online” orders, emphasizing convenience and perhaps regional culinary allure. The word cloud plot visually encapsulates these preferences, showcasing the prominent items for each customer type, vital for tailored marketing and menu enhancement strategies.</p>
+</section>
+</section>
+<section id="results-and-findings" class="level1">
+<h1>Results and Findings</h1>
+<p>Through comprehensive analyses encompassing ARIMA Time Series Forecasting, Linear Regression, and Customer Type-Based Clustering, several critical insights have surfaced. The ARIMA model successfully captured sales trends, aiding in forecasting future sales patterns. However, the Linear Regression model, while showcasing general daily sales trends, exhibited limited correlation with the Total Amount (R-squared score: -0.52). Meanwhile, Customer Type-Based Clustering unveiled distinct preferences: “Tea” for “Office Orders,” “Coffee” for “Dine-in,” and “Chole Bhature” for “Online” transactions.</p>
+<p>Moving forward, the final submission will entail a more detailed examination. This involves deeper daily sales and performance analyses, refining demand forecasting by considering hourly variations for various items, and enhancing the Regression Analysis through improved variable selection and feature engineering. Additionally, a comprehensive customer segmentation analysis will be conducted, aiming to discern purchase patterns and timings across “Office Orders,” “Dine-in,” and “Online” customer types.</p>
+<p>These deeper analyses will promise heightened preparedness for mitigating losses and augmenting efficiency at ABC Café. Resulting enhanced insights into sales trends, demand forecasts, and customer preferences will facilitate strategic decision-making, enabling proactive measures to optimize operations and foster sustained growth.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

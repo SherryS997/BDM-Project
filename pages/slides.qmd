@@ -1,0 +1,9 @@
+---
+title: "Project Slides"
+---
+
+<iframe 
+  width="100%"
+  height="565px"
+  src="../images/slides.pdf">
+</iframe>

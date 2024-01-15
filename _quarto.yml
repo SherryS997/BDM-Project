@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+css:
+  - https://lalten.github.io/lmweb/style/latinmodern-roman.css
+  - https://lalten.github.io/lmweb/style/latinmodern-mono.css
+mainfont: "Latin Modern Roman"
+fontsize: 14pt
+fontfamilyoptions: "oblique"
+monofont: "Latin Modern Mono"
+highlight-style: "tango"
+
+website:
+  title: "BDM-Project"
+  sidebar:
+    collapse-level: 1
+    style: "docked"
+    search: true
+    contents:
+      - href: index.qmd
+        text: About
+      - href: ./pages/proposal.qmd
+        text: Proposal
+      - href: ./pages/mid-term.qmd
+        text: Mid-Term Submission
+      - href: ./pages/final.qmd
+        text: Final Submission
+      - href: ./pages/slides.qmd
+        text: Project Slides
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
