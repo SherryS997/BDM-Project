@@ -18,4 +18,4 @@ The project pages are rendered using Quarto, a versatile document format that su
 
 ## Note on Confidentiality
 
-For any inquiries or access requests, please contact the project owner or administrator.
+For any inquiries or access requests, please contact the project owner.
