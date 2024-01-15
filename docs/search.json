@@ -63,34 +63,6 @@
     "text": "This page contains the files related to my Business Data Management (BDM) Project. Unfortunately, I am bound by a Non-Disclosure Agreement (NDA), prohibiting the sharing of specific project data on this platform. Both the project reports and presentation slides have been appropriately anonymized to adhere to confidentiality requirements."
   },
   {
-    "objectID": "pages/proposal.html",
-    "href": "pages/proposal.html",
-    "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
-    "section": "",
-    "text": "PDF: Proposal.pdf"
-  },
-  {
-    "objectID": "pages/proposal.html#details-about-the-methods-used-with-justification",
-    "href": "pages/proposal.html#details-about-the-methods-used-with-justification",
-    "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
-    "section": "Details About The Methods Used With Justification",
-    "text": "Details About The Methods Used With Justification\nTo address the challenges faced by XYZ Café, a two-pronged problem-solving approach is proposed. Firstly, leveraging the provided one-year inventory and sales data, a data-centric methodology will be employed to develop a robust demand estimation model for each menu item. This involves utilizing techniques such as time series analysis, regression modeling, and machine learning algorithms. By examining historical sales and inventory data, the model can provide accurate forecasts, thereby optimizing inventory management and minimizing losses.\nSecondly, to identify customer culinary preferences and demographics, data analysis will be performed to discern trends in dish sales. This entails applying segmentation and clustering methods to group customers based on their preferences. Machine learning techniques, such as k-means clustering or association rule mining, can be instrumental in this analysis. Understanding which dishes resonate with specific customer segments allows the café to tailor its offerings effectively and create targeted marketing strategies.\nThese approaches are data-driven, ensuring precision and relevance in decision-making, and are instrumental in addressing the café’s challenges. They empower XYZ Café to operate efficiently, increase profitability, and cater to its diverse customer base."
-  },
-  {
-    "objectID": "pages/proposal.html#details-about-the-intended-data-collection-with-justification",
-    "href": "pages/proposal.html#details-about-the-intended-data-collection-with-justification",
-    "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
-    "section": "Details About the Intended Data Collection With Justification",
-    "text": "Details About the Intended Data Collection With Justification\nThe primary data source for this problem-solving approach is the one-year sales and inventory data provided by the owner. This dataset encompasses crucial information, including historical sales records, menu item specifics, and inventory levels. These data points serve as the foundation for our analysis and modeling.\nTo extract meaningful insights, data cleaning and preprocessing techniques will be applied. This includes handling missing values, outliers, and ensuring data consistency. Subsequently, exploratory data analysis will be conducted to gain a comprehensive understanding of the data’s distribution and patterns.\nThe chosen analytical methods will rely exclusively on the provided dataset, as recommended by the owner, ensuring that the solutions are derived from the most relevant and practical information available. By utilizing this comprehensive dataset, we aim to develop effective demand estimation models and customer segmentation strategies, optimizing the café’s operations and enhancing its market positioning."
-  },
-  {
-    "objectID": "pages/proposal.html#details-about-analysis-tools-with-justification",
-    "href": "pages/proposal.html#details-about-analysis-tools-with-justification",
-    "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
-    "section": "Details About Analysis Tools With Justification",
-    "text": "Details About Analysis Tools With Justification\nThe analysis tools for this project include spreadsheets for initial data exploration and organization. Python, along with libraries like Scikit-learn for machine learning, NumPy for numerical computations, and Matplotlib for data visualization, will be employed for in-depth analysis. Python’s versatility and extensive libraries make it ideal for robust data analysis, while spreadsheets offer a user-friendly interface for initial data inspection."
-  },
-  {
     "objectID": "pages/final.html",
     "href": "pages/final.html",
     "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
@@ -145,5 +117,33 @@
     "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
     "section": "Analysis of Customer Segmentation using K-means Clustering",
     "text": "Analysis of Customer Segmentation using K-means Clustering\nThe optimal number of clusters for customer segmentation using K-means clustering was determined to be 3, employing the elbow technique. The clustering analysis was performed on the features ‘Item Price’ and ‘Quantity’.\nThe resulting clusters exhibited distinctive characteristics:\n\nCluster 1: Low Priced Items and Low Quantity Bought: This cluster comprises customers who tend to purchase low-priced items in smaller quantities.\nCluster 2: High Priced Items and Low Quantity Bought: Customers in this cluster show a preference for higher-priced items but make purchases in lower quantities.\nCluster 3: Low Priced Items and High Quantity Bought: This cluster represents customers who consistently purchase low-priced items in larger quantities.\n\nUpon analysis, an intriguing observation was made: there appeared to be no distinct cluster representing customers who purchase expensive items in high quantities. This absence suggests that within the dataset and based on the analysed features, customers who buy items in larger quantities tend to opt for lower-priced items.\n\nThe elbow plot showcasing the within-cluster sum of squares (WCSS) against the number of clusters indicated a clear ‘elbow’ or point of inflection at 3 clusters, signifying that additional clusters beyond this point do not significantly improve the model’s explanatory power.\nThe K-means clustering scatter plot, using ‘Item Price’ and ‘Quantity’ as axes, demonstrates the segregation of customers into these distinct clusters. These clusters provide valuable insights into customers’ purchasing behaviours based on price and quantity, allowing businesses to tailor marketing strategies, optimize inventory, and enhance product offerings to better meet the preferences and demands of different customer segments."
+  },
+  {
+    "objectID": "pages/proposal.html",
+    "href": "pages/proposal.html",
+    "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
+    "section": "",
+    "text": "PDF: Proposal.pdf"
+  },
+  {
+    "objectID": "pages/proposal.html#details-about-the-methods-used-with-justification",
+    "href": "pages/proposal.html#details-about-the-methods-used-with-justification",
+    "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
+    "section": "Details About The Methods Used With Justification",
+    "text": "Details About The Methods Used With Justification\nTo address the challenges faced by XYZ Café, a two-pronged problem-solving approach is proposed. Firstly, leveraging the provided one-year inventory and sales data, a data-centric methodology will be employed to develop a robust demand estimation model for each menu item. This involves utilizing techniques such as time series analysis, regression modeling, and machine learning algorithms. By examining historical sales and inventory data, the model can provide accurate forecasts, thereby optimizing inventory management and minimizing losses.\nSecondly, to identify customer culinary preferences and demographics, data analysis will be performed to discern trends in dish sales. This entails applying segmentation and clustering methods to group customers based on their preferences. Machine learning techniques, such as k-means clustering or association rule mining, can be instrumental in this analysis. Understanding which dishes resonate with specific customer segments allows the café to tailor its offerings effectively and create targeted marketing strategies.\nThese approaches are data-driven, ensuring precision and relevance in decision-making, and are instrumental in addressing the café’s challenges. They empower XYZ Café to operate efficiently, increase profitability, and cater to its diverse customer base."
+  },
+  {
+    "objectID": "pages/proposal.html#details-about-the-intended-data-collection-with-justification",
+    "href": "pages/proposal.html#details-about-the-intended-data-collection-with-justification",
+    "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
+    "section": "Details About the Intended Data Collection With Justification",
+    "text": "Details About the Intended Data Collection With Justification\nThe primary data source for this problem-solving approach is the one-year sales and inventory data provided by the owner. This dataset encompasses crucial information, including historical sales records, menu item specifics, and inventory levels. These data points serve as the foundation for our analysis and modeling.\nTo extract meaningful insights, data cleaning and preprocessing techniques will be applied. This includes handling missing values, outliers, and ensuring data consistency. Subsequently, exploratory data analysis will be conducted to gain a comprehensive understanding of the data’s distribution and patterns.\nThe chosen analytical methods will rely exclusively on the provided dataset, as recommended by the owner, ensuring that the solutions are derived from the most relevant and practical information available. By utilizing this comprehensive dataset, we aim to develop effective demand estimation models and customer segmentation strategies, optimizing the café’s operations and enhancing its market positioning."
+  },
+  {
+    "objectID": "pages/proposal.html#details-about-analysis-tools-with-justification",
+    "href": "pages/proposal.html#details-about-analysis-tools-with-justification",
+    "title": "Data-Driven Transformation: Optimizing Operations and Customer Engagement at XYZ Café",
+    "section": "Details About Analysis Tools With Justification",
+    "text": "Details About Analysis Tools With Justification\nThe analysis tools for this project include spreadsheets for initial data exploration and organization. Python, along with libraries like Scikit-learn for machine learning, NumPy for numerical computations, and Matplotlib for data visualization, will be employed for in-depth analysis. Python’s versatility and extensive libraries make it ideal for robust data analysis, while spreadsheets offer a user-friendly interface for initial data inspection."
   }
 ]
