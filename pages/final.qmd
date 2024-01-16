@@ -208,23 +208,23 @@ The primary goal is to gain a finer understanding of when and what customers pre
 
 ### Variable Selection and Model Building
 
-Initially, feature selection was performed using SelectKBest, where Feature_1 exhibited the highest score (5.35) and a statistically significant p-value (0.0208). Other features, such as Feature_2, and Feature_3, showed varied scores and p-values.
+Initially, feature selection was performed using SelectKBest, where *Hour_of_Day* exhibited the highest score (5.35) and a statistically significant p-value (0.0208). Other features, such as *Day_of_Week*, and *Month*, showed varied scores and p-values.
 
-Subsequently, five models (Model_1, Model_2, Model_3, Model_4, and Model_5) were trained with these features. Upon evaluation, Model_5 emerged with the most promising performance among these models, showcasing an R-squared value of 0.0266 and an RMSE of 207.50, indicating its superior predictive capability compared to other models.
+Subsequently, five models (Linear Regression, Lasso, Ridge, RandomForest, and GradientBoosting) were trained with these features. Upon evaluation, GradientBoosting emerged with the most promising performance among these models, showcasing an R-squared value of 0.0266 and an RMSE of 207.50, indicating its superior predictive capability compared to other models.
 
 ### Model Performance Improvement
 
-The previous analysis (Midterm) involved a Model_1 with an R-squared around -0.5, signifying a poor fit. However, Model_5, despite a moderately improved R-squared value of 0.0266, demonstrated a significant advancement in prediction accuracy, reducing the RMSE to 207.5. This signifies a substantial enhancement in predictive power and a departure from the poor predictive performance observed previously.
+The previous analysis (Midterm) involved a Linear Regression with an R-squared around -0.5, signifying a poor fit. However, GradientBoosting, despite a moderately improved R-squared value of 0.0266, demonstrated a significant advancement in prediction accuracy, reducing the RMSE to 207.5. This signifies a substantial enhancement in predictive power and a departure from the poor predictive performance observed previously.
 
 ### Plot Interpretation
 
 ![](../images/rmse.png)
 
-Visualizing actual sales versus predicted sales in a line plot for total daily sales showed a notable alignment between the predicted and actual trends when employing the Model_5. This proximity between the predicted and actual trends signifies the model’s capacity to accurately capture sales patterns, offering a strong foundation for decision-making in demand forecasting and business strategies.
+Visualizing actual sales versus predicted sales in a line plot for total daily sales showed a notable alignment between the predicted and actual trends when employing the GradientBoosting. This proximity between the predicted and actual trends signifies the model’s capacity to accurately capture sales patterns, offering a strong foundation for decision-making in demand forecasting and business strategies.
 
 ### Interpretation and Analysis
 
-Despite the moderate improvement in the R-squared value from the prior poor fit, the transition from a negative R-squared to a positive one, especially when moving from Model_1 to Model_5, is a significant achievement. The model’s demonstrated ability to closely predict actual sales trends indicates its reliability in capturing intricate sales patterns, thus providing valuable insights for informed decision-making in business strategies and demand forecasting.
+Despite the moderate improvement in the R-squared value from the prior poor fit, the transition from a negative R-squared to a positive one, especially when moving from Linear Regression to GradientBoosting, is a significant achievement. The model’s demonstrated ability to closely predict actual sales trends indicates its reliability in capturing intricate sales patterns, thus providing valuable insights for informed decision-making in business strategies and demand forecasting.
 
 ## RFM Analysis Overview for Customer Segmentation
 
