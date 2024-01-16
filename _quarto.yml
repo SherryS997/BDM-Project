@@ -12,10 +12,13 @@ monofont: "Latin Modern Mono"
 highlight-style: "tango"
 
 website:
-  title: "BDM-Project"
+  title: "BDM Project"
   sidebar:
     collapse-level: 1
     style: "docked"
+    tools:
+    - icon: github
+      href: https://github.com/SherryS997/BDM-Project
     search: true
     contents:
       - href: index.qmd
